@@ -14,3 +14,5 @@ tqdm
 google-auth-oauthlib
 google-cloud-bigquery
 pandas-gbq
+pre-commit
+black
