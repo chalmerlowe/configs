@@ -16,3 +16,4 @@ google-cloud-bigquery
 pandas-gbq
 pre-commit
 black
+nox
