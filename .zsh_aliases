@@ -1,0 +1,8 @@
+# Parameterized aliases
+ipy() {
+        ipython -i $1
+}
+#
+
+alias work="cd ~/path/to/work/dir"
+alias play="cd ~/path/to/experimental/dir"
