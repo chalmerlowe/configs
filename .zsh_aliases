@@ -1,0 +1,9 @@
+# Parameterized aliases
+ipy() {
+	ipython -i $1
+}
+#
+
+alias work="cd ~/ca-src/github.com/googleapis; ls -l"
+alias play="cd ~/ca-experiments; ls -l"
+alias vexp="pyenv activate experiments"
