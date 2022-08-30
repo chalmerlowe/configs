@@ -4,6 +4,6 @@ ipy() {
 }
 #
 
-alias work="cd ~/ca-src/github.com/googleapis; ls -l"
-alias play="cd ~/ca-experiments; ls -l"
+alias work="cd ~/ct-src/github.com/googleapis; ls -l"
+alias play="cd ~/ct-experiments; ls -l"
 alias vexp="pyenv activate experiments"
