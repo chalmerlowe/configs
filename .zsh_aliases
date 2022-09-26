@@ -7,3 +7,7 @@ ipy() {
 alias work="cd ~/ct-src/github.com/googleapis; ls -l"
 alias play="cd ~/ct-experiments; ls -l"
 alias vexp="pyenv activate experiments"
+alias 310="conda activate bq_base_310"
+alias 39="conda activate bq_base_39"
+alias 38="conda activate bq_base_38"
+alias 37="conda activate bq_base_37"
