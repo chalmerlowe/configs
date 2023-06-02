@@ -4,7 +4,3 @@ ipy() {
 }
 #
 
-alias work="cd ~/ct-src/github.com/googleapis; ls -l"
-alias play="cd ~/ct-experiments; ls -l"
-alias delete="cd ~/ct-to_delete; ls -l"
-alias vexp="pyenv activate experiments"
