@@ -11,9 +11,7 @@ scikit-learn
 scipy
 seaborn
 tqdm
-google-auth-oauthlib
-google-cloud-bigquery
-pandas-gbq
 pre-commit
 black
 nox
+google-auth-oauthlib
