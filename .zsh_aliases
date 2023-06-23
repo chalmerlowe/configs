@@ -7,3 +7,4 @@ ipy() {
 alias work="cd ~/ca-src/github.com/googleapis; ls -l"
 alias play="cd ~/ca-experiments; ls -l"
 alias vexp="pyenv activate experiments"
+alias cels="conda env list"
