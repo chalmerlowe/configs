@@ -1,0 +1,22 @@
+name: datasci
+channels:
+  - conda-forge
+dependencies:
+  - beautifulsoup4
+  - jupyterlab
+  - lxml
+  - matplotlib
+  - numpy
+  - openpyxl
+  - pandas
+  - pytest
+  - requests
+  - scikit-learn
+  - scipy
+  - seaborn
+  - tqdm
+  - pre-commit
+  - black
+  - nox
+  - google-auth-oauthlib
+prefix: /usr/local/google/home/chalmerlowe/miniforge3

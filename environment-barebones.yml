@@ -1,0 +1,12 @@
+name: barebones-312
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - jupyterlab
+  - pandas
+  - google-auth-oauthlib
+  - pytest
+  - nox
+  - requests
+prefix: /usr/local/google/home/chalmerlowe/miniforge3
