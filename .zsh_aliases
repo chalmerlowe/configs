@@ -1,8 +1,43 @@
-echo "Loading aliases..."
+echo "Loading functions and aliases..."
 
-# Parameterized aliases
+# Parameterized personal functions
 ipy() {
 	ipython -i $1
 }
-#
 
+# Variables
+# TODO: uncomment this line and edit the directory.
+# dirname="your_main_dirname_here"
+
+src_dirname="'$dirname'-src"
+exp_dirname="'$dirname'-exp"
+del_dirname="'$dirname'-del"
+
+
+# Personal aliases
+alias work="cd ~/'$src_dirname'/git/google; ls -l"
+alias workpm="cd ~/'$src_dirname'/git/google; dockerpm"
+alias pbq="cd ~/'$src_dirname'/git/google/python-bigquery; ls -l"
+alias pbqpd="cd ~/'$src_dirname'/git/google/python-bigquery-pandas; ls -l"
+alias pbqsql="cd ~/'$src_dirname'/git/google/python-bigquery-sqlalchemy; ls -l"
+alias pbqst="cd ~/'$src_dirname'/git/google/python-bigquery-storage; ls -l"
+alias pbqdb="cd ~/'$src_dirname'/git/google/python-db-dtypes-pandas; ls -l"
+alias science="cd ~/'$exp_dirname'; ls -l"
+alias autogen="cd ~/'$exp_dirname'/autogen/protobuf-stuff/example; ls -l"
+alias snippets="cd ~/'$exp_dirname'/snippets; ls -l"
+alias delete="cd ~/'$del_dirname'; ls -l"
+alias ca="conda activate"
+alias cb="ca barebones-311"
+alias cdd="conda deactivate; conda deactivate"
+alias cci="cdd; cb; ipy"
+alias ll="ls -l"
+alias la="ls -al"
+
+# Generate five random aliases to display for daily study purposes
+echo
+alias | shuf -n 5 
+echo
+
+# Load current favorite conda environment
+echo "Loading favorite conda environment..."
+cb
